@@ -14,7 +14,7 @@ import java.security.Principal;
 public class UserController {
     private final UserService userService;
 
-    public UserController(UserServiceImp userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 

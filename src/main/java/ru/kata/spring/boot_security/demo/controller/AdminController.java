@@ -22,7 +22,7 @@ public class AdminController {
 
     private static final Logger LOGGER = Logger.getLogger(AdminController.class.getName());
     @Autowired
-    public AdminController(UserServiceImp userService, RoleService roleService) {
+    public AdminController(UserService userService, RoleService roleService) {
         this.userService = userService;
         this.roleService = roleService;
     }
